@@ -7,19 +7,29 @@ export default function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand">{props.title}</a>
+        {/* Brand logo/title with proper link */}
+        <Link className="navbar-brand" to="/">
+          {props.title}
+        </Link>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav d-flex align-items-center" style={{ gap: "20px" }}>
+          <ul
+            className="navbar-nav d-flex align-items-center"
+            style={{ gap: "20px" }}
+          >
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/Listing">Listing</Link>
+              <Link className="nav-link" to="/Listing">
+                Listing
+              </Link>
             </li>
 
-            
+            {/* Contact Dropdown */}
             <li className="nav-item" style={{ position: "relative" }}>
               <button
                 className="btn nav-link"
@@ -30,16 +40,18 @@ export default function Navbar(props) {
               </button>
 
               {contactOpen && (
-                <div style={{
-                  position: "absolute",
-                  top: "100%",
-                  left: 0,
-                  backgroundColor: "#fff",
-                  border: "1px solid #ccc",
-                  borderRadius: "4px",
-                  zIndex: 1000,
-                  minWidth: "120px"
-                }}>
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "100%",
+                    left: 0,
+                    backgroundColor: "#fff",
+                    border: "1px solid #ccc",
+                    borderRadius: "4px",
+                    zIndex: 1000,
+                    minWidth: "120px",
+                  }}
+                >
                   <Link
                     className="dropdown-item"
                     to="/Contact"
