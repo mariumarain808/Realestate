@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+DreamHome – Real Estate Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based real estate web application where users can explore properties for sale and rent, with Firebase authentication and dynamic property listings.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+🔐 Firebase Authentication (Login / Signup)
 
-### `npm start`
+🏠 Browse properties for Sale and Rent
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📋 Property details page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📩 Newsletter subscription
 
-### `npm test`
+📞 Contact form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Tech Stack
 
-### `npm run build`
+Frontend: React, React Router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Backend/Database: Firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Styling: CSS / Tailwind (optional)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 How to Run Locally
 
-### `npm run eject`
+Clone this repo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate to project folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd real-estate-app
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Run development server:
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🌍 Deployment
 
-### Making a Progressive Web App
+This project is deployed on Netlify (or Vercel).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔗 Live Demo: [Your Netlify Link Here]
