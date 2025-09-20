@@ -15,13 +15,13 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} Dream Home. All rights reserved.
       </p>
       <div style={{ display: "flex", justifyContent: "center", gap: "15px" }}>
-        <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
+        <a href="/privacy" style={{ color: "#fff", textDecoration: "none" }}>
           Privacy Policy
         </a>
-        <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
+        <a href="/terms" style={{ color: "#fff", textDecoration: "none" }}>
           Terms of Service
         </a>
-        <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
+        <a href="/contact" style={{ color: "#fff", textDecoration: "none" }}>
           Contact Us
         </a>
       </div>
